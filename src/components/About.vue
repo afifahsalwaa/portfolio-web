@@ -101,7 +101,7 @@
               <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
                 <!-- Progress Bar -->
                 <div
-                  class="h-full bg-gradient-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-1000 ease-out"
+                  class="h-full bg-linear-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-1000 ease-out"
                   :style="{ width: skill.level + '%' }"
                 ></div>
               </div>

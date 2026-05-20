@@ -4,7 +4,8 @@ import afifah from "./../assets/afifah.jpeg";
 
 <template>
   <section
-    class="relative min-h-[calc(100vh-4rem)] flex items-center justify-center bg-gradient-to-b from-emerald-50/30 via-white to-white overflow-hidden py-20 px-6 sm:px-8 lg:px-16"
+    id="hero"
+    class="scroll-pt-40 relative min-h-[calc(100vh-4rem)] flex items-center justify-center bg-linear-to-b from-emerald-50/30 via-white to-white overflow-hidden py-20 px-6 sm:px-8 lg:px-16"
   >
     <!-- Elemen Dekoratif Latar Belakang (Abstract Blobs) -->
     <div
@@ -32,7 +33,7 @@ import afifah from "./../assets/afifah.jpeg";
         >
           Hi, I'm
           <span
-            class="bg-gradient-to-r from-emerald-600 to-teal-500 bg-clip-text text-transparent"
+            class="bg-linear-to-r from-emerald-600 to-teal-500 bg-clip-text text-transparent"
             >Afifah Salwa</span
           >
           <br />
@@ -59,7 +60,7 @@ import afifah from "./../assets/afifah.jpeg";
             href="#projects"
             class="px-8 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg shadow-emerald-600/20 hover:shadow-emerald-600/30 hover:-translate-y-0.5 transition-all duration-200 text-center"
           >
-            Lihat Project Saya
+            Lihat CV Saya
           </a>
           <a
             href="#contact"
@@ -91,6 +92,10 @@ import afifah from "./../assets/afifah.jpeg";
             >
             <span
               class="px-3 py-1 bg-slate-50 text-slate-600 rounded-md text-sm border border-slate-100 font-medium"
+              >MySQL</span
+            >
+            <span
+              class="px-3 py-1 bg-slate-50 text-slate-600 rounded-md text-sm border border-slate-100 font-medium"
               >Git / GitHub</span
             >
           </div>
@@ -102,7 +107,7 @@ import afifah from "./../assets/afifah.jpeg";
         <div class="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
           <!-- Bingkai Dekoratif Belakang Gambar -->
           <div
-            class="absolute inset-0 bg-gradient-to-tr from-emerald-500 to-teal-400 rounded-2xl rotate-6 scale-95 opacity-20 animate-pulse"
+            class="absolute inset-0 bg-linear-to-tr from-emerald-500 to-teal-400 rounded-2xl rotate-6 scale-95 opacity-20 animate-pulse"
           ></div>
           <div
             class="absolute inset-0 bg-emerald-100 rounded-3xl -rotate-3 scale-100"
