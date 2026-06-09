@@ -14,8 +14,8 @@ const contactInfo = [
   {
     icon: "email",
     label: "Email",
-    value: "afifahsalwa669@email.com",
-    href: "mailto:afifahsalwa669@email.com",
+    value: "afifahsalwa669@gmail.com",
+    href: "mailto:afifahsalwa669@gmail.com",
   },
   {
     icon: "location",
@@ -40,7 +40,7 @@ const contactInfo = [
 const handleSubmit = () => {
   if (!form.name || !form.email || !form.message) return;
 
-  const recipient = "afifahsalwa669@email.com";
+  const recipient = "afifahsalwa669@gmail.com";
   const subject = encodeURIComponent(`Pesan Kontak Portfolio dari ${form.name}`);
   const body = encodeURIComponent(
     `Halo Afifah,\n\nNama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}`
