@@ -37,20 +37,25 @@ const contactInfo = [
   },
 ];
 
-const handleSubmit = async () => {
+const handleSubmit = () => {
   if (!form.name || !form.email || !form.message) return;
-  isSubmitting.value = true;
-  submitStatus.value = null;
 
-  // Simulasi submit (ganti dengan API call nyata jika ada)
-  await new Promise((resolve) => setTimeout(resolve, 1500));
+  const recipient = "afifahsalwa669@email.com";
+  const subject = encodeURIComponent(`Pesan Kontak Portfolio dari ${form.name}`);
+  const body = encodeURIComponent(
+    `Halo Afifah,\n\nNama: ${form.name}\nEmail: ${form.email}\n\nPesan:\n${form.message}`
+  );
 
-  isSubmitting.value = false;
-  submitStatus.value = "success";
+  // Membuka Gmail bursa pesan baru di tab baru
+  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${recipient}&su=${subject}&body=${body}`;
+  window.open(gmailUrl, "_blank");
+
+  // Reset form
   form.name = "";
   form.email = "";
   form.message = "";
 
+  submitStatus.value = "success";
   setTimeout(() => {
     submitStatus.value = null;
   }, 5000);

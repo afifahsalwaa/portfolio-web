@@ -2,7 +2,7 @@
   <section id="about" class="py-24 bg-slate-50/50 px-6 sm:px-8 lg:px-16 overflow-hidden scroll-mt-64 md:scroll-mt-0">
     <div class="max-w-7xl mx-auto">
       <!-- Judul Section -->
-      <div class="text-center max-w-xl mx-auto mb-16">
+      <div class="text-center max-w-xl mx-auto mb-20">
         <h2 class="text-xs font-bold uppercase tracking-widest text-emerald-600 mb-2">
           Tentang Saya
         </h2>
@@ -13,94 +13,70 @@
       </div>
 
       <!-- Konten Utama: Grid 2 Kolom -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
-        <!-- Kolom Kiri: Cerita Singkat & Statistik -->
-        <div class="lg:col-span-6 space-y-6">
-          <h3 class="text-2xl font-bold text-slate-800">
-            Saya seorang Developer yang menjembatani antara
-            <span class="text-emerald-600">Desain</span> dan
-            <span class="text-teal-500">Kode</span>.
-          </h3>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
+        <!-- Kolom Kiri: Cerita Singkat -->
+        <div class="lg:col-span-6 space-y-8">
+          <div class="space-y-4">
+            <p class="text-slate-600 text-lg leading-relaxed">
+              Halo! Nama saya Afifah Salwa. Saya memiliki hasrat mendalam dalam dunia pengembangan web dan desain
+              visual. Saya percaya bahwa teknologi haruslah indah sekaligus fungsional.
+            </p>
+            <p class="text-slate-600 leading-relaxed underline decoration-emerald-200 decoration-4 underline-offset-4">
+              Fokus utama saya saat ini adalah menguasai ekosistem JavaScript modern, terutama Vue.js dan Tailwind CSS,
+              untuk membangun aplikasi web yang dinamis.
+            </p>
+          </div>
 
-          <p class="text-slate-600 leading-relaxed">
-            Halo! Nama saya Afifah Salwa. Saya memiliki hasrat mendalam dalam
-            dunia pengembangan web,
-          </p>
-
-          <p class="text-slate-600 leading-relaxed">
-            Fokus utama saya saat ini adalah menguasai ekosistem JavaScript
-            modern, terutama Vue.js dan Tailwind CSS, untuk membangun aplikasi
-            web yang dinamis dan terstruktur dengan baik.
-          </p>
-
-          <!-- Statistik Ringkas / Pencapaian -->
-          <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200">
-            <div>
-              <p class="text-3xl font-extrabold text-emerald-600">1+</p>
-              <p class="text-xs font-medium uppercase text-slate-500 tracking-wider mt-1">
-                Tahun Pengalaman
-              </p>
+          <!-- Quick Info Grid -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-4 border-t border-slate-200">
+            <div class="flex items-center gap-4 group">
+              <div
+                class="w-12 h-12 rounded-2xl bg-white border border-slate-100 shadow-sm flex items-center justify-center text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                  <path
+                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Pendidikan</p>
+                <p class="text-slate-700 font-semibold">S1 Teknik Informatika</p>
+              </div>
             </div>
-            <div>
-              <p class="text-3xl font-extrabold text-emerald-600">15+</p>
-              <p class="text-xs font-medium uppercase text-slate-500 tracking-wider mt-1">
-                Project Selesai
-              </p>
-            </div>
-            <div>
-              <p class="text-3xl font-extrabold text-emerald-600">5+</p>
-              <p class="text-xs font-medium uppercase text-slate-500 tracking-wider mt-1">
-                Klien Puas
-              </p>
+            <div class="flex items-center gap-4 group">
+              <div
+                class="w-12 h-12 rounded-2xl bg-white border border-slate-100 shadow-sm flex items-center justify-center text-emerald-600 group-hover:bg-emerald-600 group-hover:text-white transition-all duration-300">
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+              </div>
+              <div>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400">Lokasi</p>
+                <p class="text-slate-700 font-semibold">Medan, Sumatera Utara</p>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- Kolom Kanan: Skill Bars & Core Competencies -->
-        <div class="lg:col-span-6 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 space-y-6">
-          <h4 class="text-lg font-bold text-slate-800 border-b border-slate-100 pb-3">
-            Keahlian Teknis
-          </h4>
-
-          <!-- Loop Skill Bars menggunakan Vue data -->
-          <div class="space-y-5">
-            <div v-for="skill in skills" :key="skill.name">
-              <div class="flex justify-between items-center mb-1.5">
-                <span class="text-sm font-semibold text-slate-700">{{
-                  skill.name
-                }}</span>
-                <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-md">
-                  {{ skill.level }}%
-                </span>
-              </div>
-              <!-- Track Bar -->
-              <div class="w-full h-2 bg-slate-100 rounded-full overflow-hidden">
-                <!-- Progress Bar -->
-                <div
-                  class="h-full bg-linear-to-r from-emerald-500 to-teal-400 rounded-full transition-all duration-1000 ease-out"
-                  :style="{ width: skill.level + '%' }"></div>
-              </div>
-            </div>
+        <!-- Kolom Kanan: Soft Skills / Core Competencies -->
+        <div class="lg:col-span-6 relative">
+          <!-- Decorative Background Elements -->
+          <div class="absolute -top-10 -right-10 w-64 h-64 bg-emerald-100/50 rounded-full blur-3xl pointer-events-none">
           </div>
 
-          <!-- Tambahan Soft Skills / Nilai Plus -->
-          <div class="pt-4">
-            <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mb-3">
-              Nilai Tambah & Pola Pikir
-            </p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                class="text-xs font-medium bg-slate-50 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-100">💡
-                Problem Solving</span>
-              <span
-                class="text-xs font-medium bg-slate-50 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-100">🎨
-                Responsive Design Mindset</span>
-              <span
-                class="text-xs font-medium bg-slate-50 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-100">🤝
-                Kolaboratif</span>
-              <span
-                class="text-xs font-medium bg-slate-50 text-slate-600 px-3 py-1.5 rounded-lg border border-slate-100">🔍
-                Detail Oriented</span>
+          <div class="relative grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div v-for="skill in softSkills" :key="skill.title"
+              class="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+              <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
+                <span class="text-xl">{{ skill.icon }}</span>
+              </div>
+              <h4 class="font-bold text-slate-800 mb-1">{{ skill.title }}</h4>
+              <p class="text-xs text-slate-500 leading-relaxed">{{ skill.desc }}</p>
             </div>
           </div>
         </div>
@@ -110,12 +86,26 @@
 </template>
 
 <script setup>
-// Data keahlian yang bisa kamu ubah persentasenya sesuai kemampuanmu
-const skills = [
-  { name: "Vue.js / JavaScript (ES6+)", level: 85 },
-  { name: "HTML5 & CSS3 / Semantic Web", level: 90 },
-  { name: "Tailwind CSS / Responsive Design", level: 95 },
-  { name: "Git & GitHub Version Control", level: 80 },
-  { name: "UI/UX Design & Figma Layouts", level: 75 },
+const softSkills = [
+  {
+    title: 'Problem Solving',
+    icon: '💡',
+    desc: 'Mampu menganalisis masalah kompleks dan menemukan solusi efisien.'
+  },
+  {
+    title: 'Responsive Design',
+    icon: '🎨',
+    desc: 'Memastikan tampilan website optimal di semua ukuran layar.'
+  },
+  {
+    title: 'Kerja Sama Tim',
+    icon: '🤝',
+    desc: 'Aktif berkomunikasi dan berkontribusi dalam berbagai proyek.'
+  },
+  {
+    title: 'Detail Oriented',
+    icon: '🔍',
+    desc: 'Sangat memperhatikan detail estetika dan fungsionalitas kode.'
+  }
 ];
 </script>
